@@ -1,0 +1,125 @@
+2018-05-31 14:21:13 2792: INFO  AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@53b7f657: startup date [Thu May 31 14:21:13 CST 2018]; root of context hierarchy
+2018-05-31 14:21:16 2792: INFO  AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-05-31 14:21:16 2792: INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f4a0db1c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-31 14:21:18 2792: INFO  ProviderApplication - No active profile set, falling back to default profiles: default
+2018-05-31 14:21:18 2792: INFO  AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@12a160c2: startup date [Thu May 31 14:21:18 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@53b7f657
+2018-05-31 14:21:21 2792: INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-05-31 14:21:21 2792: INFO  GenericScope - BeanFactory id=2aae4a02-f0f3-35e5-81e3-679ee8dc5dcd
+2018-05-31 14:21:21 2792: INFO  AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-05-31 14:21:22 2792: INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.haier.btb.demo.service.geteway.RemoteDemoServiceClient' of type [org.springframework.cloud.netflix.feign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-31 14:21:22 2792: INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f4a0db1c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-31 14:21:22 2792: INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource-com.haier.interconn.boot.mybatis.mysql.MyDataSourceConfigProperties' of type [com.haier.interconn.boot.mybatis.mysql.MyDataSourceConfigProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-31 14:21:22 2792: INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatis-com.haier.interconn.boot.mybatis.mysql.MyBatisConfigProperties' of type [com.haier.interconn.boot.mybatis.mysql.MyBatisConfigProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-31 14:21:22 2792: INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.haier.interconn.boot.mybatis.mysql.MyBatisConfig' of type [com.haier.interconn.boot.mybatis.mysql.MyBatisConfig$$EnhancerBySpringCGLIB$$9044a45a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-31 14:21:22 2792: INFO  HikariDataSource - HikariPool-1 - Started.
+2018-05-31 14:21:23 2792: INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSource1' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-31 14:21:23 2792: INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$ba7a7b7f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-31 14:21:23 2792: INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-31 14:21:23 2792: INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSourceInitializer' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-31 14:21:23 2792: INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d886d81f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-31 14:21:25 2792: INFO  TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8090 (http)
+2018-05-31 14:21:25 2792: INFO  StandardService - Starting service [Tomcat]
+2018-05-31 14:21:25 2792: INFO  StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-05-31 14:21:26 2792: INFO  [/] - Initializing Spring embedded WebApplicationContext
+2018-05-31 14:21:26 2792: INFO  ContextLoader - Root WebApplicationContext: initialization completed in 7747 ms
+2018-05-31 14:21:26 2792: INFO  ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2018-05-31 14:21:26 2792: INFO  FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-31 14:21:26 2792: INFO  FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-31 14:21:26 2792: INFO  FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-31 14:21:26 2792: INFO  FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-31 14:21:29 2792: INFO  RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@12a160c2: startup date [Thu May 31 14:21:18 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@53b7f657
+2018-05-31 14:21:29 2792: INFO  RequestMappingHandlerMapping - Mapped "{[/user],methods=[POST],consumes=[application/json;charset=UTF-8]}" onto public java.lang.String com.haier.btb.demo.controller.DemoController.createUser(com.haier.btb.demo.domain.User)
+2018-05-31 14:21:29 2792: INFO  RequestMappingHandlerMapping - Mapped "{[/hello]}" onto public java.lang.String com.haier.btb.demo.controller.DemoController.sayHello(java.util.Map<java.lang.String, java.lang.Object>)
+2018-05-31 14:21:29 2792: INFO  RequestMappingHandlerMapping - Mapped "{[/testPost],methods=[POST],consumes=[application/json;charset=UTF-8]}" onto public java.lang.String com.haier.btb.demo.controller.TestController.createUser(com.haier.btb.demo.domain.User)
+2018-05-31 14:21:29 2792: INFO  RequestMappingHandlerMapping - Mapped "{[/test]}" onto public java.lang.String com.haier.btb.demo.controller.TestController.sayHello(java.util.Map<java.lang.String, java.lang.Object>)
+2018-05-31 14:21:29 2792: INFO  RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-05-31 14:21:29 2792: INFO  RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-05-31 14:21:29 2792: INFO  SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-31 14:21:29 2792: INFO  SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-31 14:21:29 2792: INFO  SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-31 14:21:31 2792: INFO  FreeMarkerConfigurer - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-05-31 14:21:32 2792: WARN  URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2018-05-31 14:21:32 2792: INFO  URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-05-31 14:21:32 2792: WARN  URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2018-05-31 14:21:32 2792: INFO  URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-05-31 14:21:33 2792: INFO  AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-05-31 14:21:33 2792: INFO  AnnotationMBeanExporter - Bean with name 'dataSource1' has been autodetected for JMX exposure
+2018-05-31 14:21:33 2792: INFO  AnnotationMBeanExporter - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2018-05-31 14:21:33 2792: INFO  AnnotationMBeanExporter - Bean with name 'environmentManager' has been autodetected for JMX exposure
+2018-05-31 14:21:33 2792: INFO  AnnotationMBeanExporter - Bean with name 'refreshScope' has been autodetected for JMX exposure
+2018-05-31 14:21:33 2792: INFO  AnnotationMBeanExporter - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2018-05-31 14:21:33 2792: INFO  AnnotationMBeanExporter - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2018-05-31 14:21:33 2792: INFO  AnnotationMBeanExporter - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=12a160c2,type=ConfigurationPropertiesRebinder]
+2018-05-31 14:21:33 2792: INFO  AnnotationMBeanExporter - Located MBean 'dataSource1': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource1,type=HikariDataSource]
+2018-05-31 14:21:33 2792: INFO  Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2018-05-31 14:21:33 2792: INFO  Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2018-05-31 14:21:33 2792: INFO  NioSelectorPool - Using a shared selector for servlet write/read
+2018-05-31 14:21:33 2792: INFO  TomcatEmbeddedServletContainer - Tomcat started on port(s): 8090 (http)
+2018-05-31 14:21:33 2792: INFO  ProviderApplication - Started ProviderApplication in 23.689 seconds (JVM running for 29.636)
+2018-05-31 14:21:52 2792: INFO  [/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-05-31 14:21:52 2792: INFO  DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2018-05-31 14:21:52 2792: INFO  DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 48 ms
+2018-05-31 14:21:59 2792: INFO  UserServiceImpl - Hi 1
+2018-05-31 14:22:34 10056: INFO  AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@53b7f657: startup date [Thu May 31 14:22:34 CST 2018]; root of context hierarchy
+2018-05-31 14:22:35 10056: INFO  AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-05-31 14:22:35 10056: INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6af4cd7a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-31 14:22:37 10056: INFO  ProviderApplication - No active profile set, falling back to default profiles: default
+2018-05-31 14:22:37 10056: INFO  AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6a10b263: startup date [Thu May 31 14:22:37 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@53b7f657
+2018-05-31 14:22:38 10056: INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-05-31 14:22:39 10056: INFO  GenericScope - BeanFactory id=2aae4a02-f0f3-35e5-81e3-679ee8dc5dcd
+2018-05-31 14:22:39 10056: INFO  AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-05-31 14:22:39 10056: INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.haier.btb.demo.service.geteway.RemoteDemoServiceClient' of type [org.springframework.cloud.netflix.feign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-31 14:22:39 10056: INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6af4cd7a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-31 14:22:39 10056: INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource-com.haier.interconn.boot.mybatis.mysql.MyDataSourceConfigProperties' of type [com.haier.interconn.boot.mybatis.mysql.MyDataSourceConfigProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-31 14:22:39 10056: INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatis-com.haier.interconn.boot.mybatis.mysql.MyBatisConfigProperties' of type [com.haier.interconn.boot.mybatis.mysql.MyBatisConfigProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-31 14:22:39 10056: INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.haier.interconn.boot.mybatis.mysql.MyBatisConfig' of type [com.haier.interconn.boot.mybatis.mysql.MyBatisConfig$$EnhancerBySpringCGLIB$$69896b8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-31 14:22:39 10056: INFO  HikariDataSource - HikariPool-1 - Started.
+2018-05-31 14:22:40 10056: INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSource1' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-31 14:22:40 10056: INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$30ce6ddd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-31 14:22:40 10056: INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-31 14:22:40 10056: INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSourceInitializer' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-31 14:22:40 10056: INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4edaca7d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-31 14:22:42 10056: INFO  TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8090 (http)
+2018-05-31 14:22:42 10056: INFO  StandardService - Starting service [Tomcat]
+2018-05-31 14:22:42 10056: INFO  StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-05-31 14:22:43 10056: INFO  [/] - Initializing Spring embedded WebApplicationContext
+2018-05-31 14:22:43 10056: INFO  ContextLoader - Root WebApplicationContext: initialization completed in 5631 ms
+2018-05-31 14:22:43 10056: INFO  ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2018-05-31 14:22:43 10056: INFO  FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-31 14:22:43 10056: INFO  FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-31 14:22:43 10056: INFO  FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-31 14:22:43 10056: INFO  FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-31 14:22:45 10056: INFO  RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6a10b263: startup date [Thu May 31 14:22:37 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@53b7f657
+2018-05-31 14:22:45 10056: INFO  RequestMappingHandlerMapping - Mapped "{[/user],methods=[POST],consumes=[application/json;charset=UTF-8]}" onto public java.lang.String com.haier.btb.demo.controller.DemoController.createUser(com.haier.btb.demo.domain.User)
+2018-05-31 14:22:45 10056: INFO  RequestMappingHandlerMapping - Mapped "{[/hello]}" onto public java.lang.String com.haier.btb.demo.controller.DemoController.sayHello(java.util.Map<java.lang.String, java.lang.Object>)
+2018-05-31 14:22:45 10056: INFO  RequestMappingHandlerMapping - Mapped "{[/testPost],methods=[POST],consumes=[application/json;charset=UTF-8]}" onto public java.lang.String com.haier.btb.demo.controller.TestController.createUser(com.haier.btb.demo.domain.User)
+2018-05-31 14:22:45 10056: INFO  RequestMappingHandlerMapping - Mapped "{[/test]}" onto public java.lang.String com.haier.btb.demo.controller.TestController.sayHello(java.util.Map<java.lang.String, java.lang.Object>)
+2018-05-31 14:22:45 10056: INFO  RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-05-31 14:22:45 10056: INFO  RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-05-31 14:22:45 10056: INFO  SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-31 14:22:45 10056: INFO  SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-31 14:22:45 10056: INFO  SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-31 14:22:46 10056: INFO  FreeMarkerConfigurer - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-05-31 14:22:48 10056: WARN  URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2018-05-31 14:22:48 10056: INFO  URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-05-31 14:22:48 10056: WARN  URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2018-05-31 14:22:48 10056: INFO  URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-05-31 14:22:48 10056: INFO  AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-05-31 14:22:48 10056: INFO  AnnotationMBeanExporter - Bean with name 'dataSource1' has been autodetected for JMX exposure
+2018-05-31 14:22:48 10056: INFO  AnnotationMBeanExporter - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2018-05-31 14:22:48 10056: INFO  AnnotationMBeanExporter - Bean with name 'environmentManager' has been autodetected for JMX exposure
+2018-05-31 14:22:48 10056: INFO  AnnotationMBeanExporter - Bean with name 'refreshScope' has been autodetected for JMX exposure
+2018-05-31 14:22:48 10056: INFO  AnnotationMBeanExporter - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2018-05-31 14:22:48 10056: INFO  AnnotationMBeanExporter - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2018-05-31 14:22:48 10056: INFO  AnnotationMBeanExporter - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=6a10b263,type=ConfigurationPropertiesRebinder]
+2018-05-31 14:22:48 10056: INFO  AnnotationMBeanExporter - Located MBean 'dataSource1': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource1,type=HikariDataSource]
+2018-05-31 14:22:48 10056: INFO  Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2018-05-31 14:22:48 10056: INFO  Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2018-05-31 14:22:49 10056: INFO  NioSelectorPool - Using a shared selector for servlet write/read
+2018-05-31 14:22:49 10056: INFO  TomcatEmbeddedServletContainer - Tomcat started on port(s): 8090 (http)
+2018-05-31 14:22:49 10056: INFO  ProviderApplication - Started ProviderApplication in 17.009 seconds (JVM running for 19.123)
+2018-05-31 14:22:56 10056: INFO  [/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-05-31 14:22:56 10056: INFO  DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2018-05-31 14:22:56 10056: INFO  DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 52 ms
+2018-05-31 14:22:56 10056: INFO  UserServiceImpl - Hi 1
+2018-05-31 14:45:50 10056: WARN  HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=23m9s826ms995µs371ns).
